@@ -1,0 +1,1 @@
+$("#menu-icon").on("click",function(){$(".inner-nav").toggle()}),$(window).on("resize",function(){$(window).width()>992?$(".inner-nav").show():$(".inner-nav").hide()});
